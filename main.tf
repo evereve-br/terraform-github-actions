@@ -49,7 +49,7 @@ resource "aws_instance" "web" {
   ami                    = data.aws_ami.ubuntu.id
   instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.web-sg.id]
-  subnet_id              ="0ee30d37b3323f087"
+  subnet_id              ="subnet-ee30d37b3323f087"
  
   user_data = <<-EOF
               #!/bin/bash
