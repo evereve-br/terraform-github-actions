@@ -18,7 +18,7 @@ terraform {
     organization = "Terraform-Eve"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "Gitub-Actions"
     }
   }
 }
